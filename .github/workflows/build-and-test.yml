@@ -23,6 +23,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - run: rustup update ${{ matrix.toolchain }} && rustup default ${{ matrix.toolchain }}
+      - uses: Swatinem/rust-cache@v2
       - uses: taiki-e/install-action@cargo-hack
       - run: cargo hack check --feature-powerset --no-dev-deps
       - run: cargo build --verbose
