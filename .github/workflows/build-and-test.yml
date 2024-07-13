@@ -18,7 +18,6 @@ jobs:
           - windows-latest
         toolchain:
           - stable
-          - nightly
     runs-on: ${{ matrix.os }}
     steps:
       - uses: actions/checkout@v4
