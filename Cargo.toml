@@ -1,6 +1,11 @@
 [package]
 name = "babichjacob-experimenting-with-binstall"
 version = "0.1.0"
+license = "MIT OR Apache-2.0"
+readme = "README.md"
+authors = ["J / Jacob Babich <jacobbabichpublic+crates@gmail.com>"]
 edition = "2021"
+description = "DO NOT DOWNLOAD. This crate only exists so I can experiment with CI tools for Rust, including cargo-binstall"
+repository = "https://github.com/babichjacob/experimenting-with-binstall"
 
 [dependencies]
