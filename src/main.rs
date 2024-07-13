@@ -1,3 +1,3 @@
 fn main() {
-    println!("Hello, let's see what happens!");
+    println!("Oops, I accidentally ruined the history by my Gitea mirror!");
 }
